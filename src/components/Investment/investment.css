@@ -1,6 +1,6 @@
 .investment {
     /* border: 1px solid red; */
-    margin-top: 2em;
+    margin-top: 2.12em;
 }
 
 .investmentContainer {
@@ -64,15 +64,15 @@
     color: #b8b5b5;
 }
 
-.indicatorIcon {
-    /* margin-top: 14px; */
-}
+/* .indicatorIcon {
+    margin-top: 14px;
+} */
 
 /* summaryBottomSection styles starts */
 .summaryBottomSection {
     display: flex;
     gap: 1em;
-    padding: 1.5em 1em;
+    padding: 1.5em;
 }
 
 .currencyHealthWrapper {
