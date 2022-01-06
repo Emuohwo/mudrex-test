@@ -1,0 +1,33 @@
+
+.pageHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 5%;
+    background-color: #fff;
+    border-bottom: .3px solid rgb(238, 238, 238);
+}
+
+.centerLink {
+    color: purple;
+    font-weight: bold;
+}
+
+.rightLinks {
+    display: flex;
+    align-items: center;
+}
+
+.rightLinks .walletWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.rightLinks .profileIndicator span {
+    background-color: purple;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 228);
+    margin-left: 15px;
+}

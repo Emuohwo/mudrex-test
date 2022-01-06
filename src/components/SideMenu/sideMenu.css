@@ -1,0 +1,65 @@
+/* .sideMenu {} */
+
+.logoWrapper {
+    font-size: 1.01rem;
+    color: #fff;
+    /* font-weight: bold; */
+    text-align: center;
+    margin-top: 1em;
+}
+
+.logoTextBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg {
+    width: 40px;
+    height: auto;
+}
+
+/* navigationContainer */
+.navigationContainer {
+    margin-top: 4em;
+    padding: 6%;
+}
+
+.navLinkWrapper {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    padding: 2px;
+    margin: .2em 0;
+    font-size: 12px;
+}
+
+.navigationContainer .active {
+    background-color: #a09d9dc2;
+    position: relative;
+}
+
+.navIcon {
+    margin-right: 4px;
+    font-size: 20px;
+}
+
+.divider {
+    height: 50px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1em;
+}
+
+.spaceSeparator {
+    width: 100%;
+    min-height: 8em;
+}
+
+.webinarWrapper {
+    background-color: rgb(134, 53, 209);
+    border-radius: 5px;
+    color: #bebdbd;
+    padding: 2%;
+    margin: 6em 8px 0;
+}

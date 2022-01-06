@@ -1,0 +1,151 @@
+.investment {
+    /* border: 1px solid red; */
+    margin-top: 2em;
+}
+
+.investmentContainer {
+    display: flex;
+    gap: 2em;
+}
+
+.investmentSummary {
+    flex: 1;
+}
+
+/* investmentSummary style starts here */
+.investmentSummary {
+    border: 1px solid #d6d2d2;
+    min-height: 100px;
+    border-radius: 6px;
+    height: max-content;
+}
+
+.summaryTopSection {
+    border-bottom: 1px solid #d8d6d6;
+    padding: 1.5em 12px;
+    position: relative;
+}
+
+.statusIcon {
+    background-color: #8fe08f;
+    border-radius: 50%;
+    border: 6px solid #00ff0027;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    right: 12px;
+    top: 9px;
+}
+
+.summaryTitle {
+    font-size: 16px;
+}
+
+.summaryValueContainer {
+    display: flex;
+    align-items: flex-end;
+    gap: 2em;
+    margin-top: 12px;
+}
+
+.valueTitle {
+    font-size: 14px;
+    color: #b8b5b5;
+}
+
+.currentValueContent {
+    display: flex;
+    align-items: flex-end;
+}
+
+.valueIndicator {
+    display: flex;
+    font-size: 12px;
+    color: #b8b5b5;
+}
+
+.indicatorIcon {
+    /* margin-top: 14px; */
+}
+
+/* summaryBottomSection styles starts */
+.summaryBottomSection {
+    display: flex;
+    gap: 1em;
+    padding: 1.5em 1em;
+}
+
+.currencyHealthWrapper {
+    background: #eeecec70;
+    padding: 10px 14px;
+    flex: 1;
+}
+
+.currencyContainer {
+    display: flex;
+    align-items: center;
+}
+
+.currencyIcon {
+    width: 40px;
+    height: auto;
+    margin-right: 3px;
+}
+
+.currencyValueBox, 
+.currencyIndicatorBox {
+    display: flex;
+}
+
+.currencyIndicatorBox {
+    align-items: flex-end;
+}
+
+.currencyTitle {
+    font-size: 14px;
+    color: #dbdada;
+}
+
+.currencyIndicatorBox {
+    color: #c4c1c1;
+}
+
+.currencyRate {
+    font-size: 13px;
+}
+
+/* Portfolio section styles */
+.portfolioSection {
+    background-color: blueviolet;
+    background-image: url("https://imgr.search.brave.com/nLqX-I3nKniJDK-4_8j90f1rhD_dy51jpweR52TCveo/fit/450/450/ce/1/aHR0cHM6Ly9jZG5p/Lmljb25zY291dC5j/b20vaWxsdXN0cmF0/aW9uL3ByZW1pdW0v/dGh1bWIvbWFuLXdv/cmtpbmctb24tdGhl/LWxhcHRvcC1hcy1m/cmVlbGFuY2VyLTI0/MDcyOTQtMjAxMjM2/MS5wbmc");
+    /* background-position: right bottom; */
+    border-radius: 5px;
+    color: #ffffff;
+    max-width: 270px;
+    width: 100%;
+    height: max-content;
+    padding: 1.5% 4% 5em 1.5%;
+}
+.adsTitle {
+    font-size: 17px;
+}
+
+.adsDesc {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.adsButtonContainer {
+    margin-top: 1em;
+}
+.adsBtn {
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+    background-color: rgb(93, 65, 119);
+    color: #ffffff;
+}
+
+.adsTime {
+    font-size: 12px;
+}

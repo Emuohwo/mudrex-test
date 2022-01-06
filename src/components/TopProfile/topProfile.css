@@ -1,0 +1,47 @@
+.topProfile {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    padding: 2% 3%;
+    /* height: 100px; */
+    border: 1px solid rgb(238, 238, 238);
+    background: rgba(238, 238, 238, 0.822);
+}
+
+.nameSetupContainer,
+.setupStepperContainer {
+    flex: 1;
+}
+
+.profileName {
+    font-size: 25px;
+}
+
+.setupTitle {
+    margin-top: 8px;
+}
+
+.setupDesc{
+    font-size: 12px;
+    color: rgb(151, 150, 150);
+}
+
+.setButtonContainer {
+    margin-top: 8px;
+}
+
+.setButtonContainer .setupBtn {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: rgb(67, 42, 90);
+    font-size: 11px;
+    padding: 8px 36px;
+}
+
+
+.setupStepperContainer {
+    align-items: center;
+}

@@ -1,0 +1,58 @@
+.exploreCoins {
+    /* border: 1px solid blueviolet; */
+    margin-top: 1.5em;
+}
+
+/* .exploreCoinsWrapper {
+} */
+
+.exploreTitle {
+    font-size: 16px;
+}
+
+.exploreCoinsDesc {
+    font-size: 10px;
+    margin-top: 4px;
+    color: #b8b5b5;
+    word-spacing: 0px;
+}
+
+.exploreCoinsTabsBox {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #b8b5b5;
+    margin-top: 1em;
+}
+
+.coinItem {
+    border-bottom: 4px solid transparent;
+    padding-bottom: 3px;
+}
+
+.coinItem:hover,
+.coinItem.active {
+    border-bottom: 4px solid rgb(55, 18, 90);
+    color: rgb(55, 18, 90);
+
+}
+
+.helpContainer {
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+}
+
+.helpContent {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    background-color: blueviolet;
+    padding: 6px 8px;
+    border-radius: 20px;
+}
+.help {
+    margin-left: 4px;
+    font-size: 12px;
+}
