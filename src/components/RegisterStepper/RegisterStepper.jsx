@@ -42,7 +42,7 @@ export default function RegisterStepper() {
                 </div>
                 <div className="stepperContent">
                     <p className="stepperText">
-                        Create your account
+                        Start investing
                     </p>
                 </div>
             </div>
