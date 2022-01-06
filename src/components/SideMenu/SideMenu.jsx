@@ -1,6 +1,6 @@
 import "./sideMenu.css";
 import logo from "../../logo.svg";
-import { MdHome, MdFeed, MdOutlineSupportAgent, MdSupervisorAccount, MdLightbulb, MdHeadsetMic, MdCallMade, MdAttachMoney, MdOutlineTv } from "react-icons/md";
+import { MdHome, MdFeed, MdSupervisorAccount, MdLightbulb, MdHeadsetMic, MdCallMade, MdAttachMoney, MdOutlineTv } from "react-icons/md";
 
 function SideMenu() {
     return (
