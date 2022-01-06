@@ -10,7 +10,7 @@ function PageHeader() {
             <div className="rightLinks">
                 <div className="walletWrapper">
                     <span className="icon">
-                      <MdTableRows size={20} />
+                      <MdTableRows  />
                     </span>
                     <span>Wallet</span>
                     

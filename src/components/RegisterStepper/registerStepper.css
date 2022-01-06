@@ -13,7 +13,7 @@
 }
 
 .iconBox.active {
-    color: blueviolet;
+    color: #6b1eb3;
 }
 
 .lineBox {
@@ -27,6 +27,6 @@
     width: 10em;
 }
 
-.stepperText .active {
-    color: blueviolet;
+.stepperText.active {
+    color: #6b1eb3;
 }

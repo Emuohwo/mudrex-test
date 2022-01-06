@@ -9,7 +9,7 @@
 }
 
 .centerLink {
-    color: purple;
+    color: #6b1eb3;
     font-weight: bold;
 }
 
@@ -19,12 +19,13 @@
 }
 
 .rightLinks .walletWrapper {
+    font-size: 12px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .rightLinks .profileIndicator span {
-    background-color: purple;
+    background-color: #6b1eb3;
     color: #fff;
     padding: 4px 10px;
     border-radius: 5px;
