@@ -1,4 +1,5 @@
 import React from 'react'
+import RegisterStepper from '../RegisterStepper/RegisterStepper';
 import "./topProfile.css";
 
 function TopProfile() {
@@ -15,7 +16,9 @@ function TopProfile() {
                     <button className="setupBtn">Complete setup</button>
                 </div>
             </div>
-            <div className="setupStepperContainer">setupStepperContainer</div>
+            <div className="setupStepperContainer">
+                <RegisterStepper />
+            </div>
         </div>
     )
 }

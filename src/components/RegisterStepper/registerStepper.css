@@ -1,0 +1,32 @@
+.registerStepper {}
+
+.stepperWrapper {
+    display: flex;
+}
+.iconLineContainer {
+    display: flex;
+    align-items: center;
+}
+
+.iconBox {
+    font-size: 20px;
+}
+
+.iconBox.active {
+    color: blueviolet;
+}
+
+.lineBox {
+    height: 1px;
+    width: 100%;
+    background-color: #e7dede;
+}
+
+.stepperText {
+    font-size: 12px;
+    width: 10em;
+}
+
+.stepperText .active {
+    color: blueviolet;
+}
